@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10478" started-at="2021-09-29T18:07:31 IST" finished-at="2021-09-29T18:07:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10478" started-at="2021-09-29T18:07:31 IST" finished-at="2021-09-29T18:07:41 IST">
+      <class name="TestPage.RS_PracticeLoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@32eebfca]" name="setUp" is-config="true" duration-ms="10379" started-at="2021-09-29T18:07:31 IST" finished-at="2021-09-29T18:07:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifytermsandconditionText()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@32eebfca]" name="verifytermsandconditionText" duration-ms="68" started-at="2021-09-29T18:07:41 IST" finished-at="2021-09-29T18:07:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytermsandconditionText -->
+      </class> <!-- TestPage.RS_PracticeLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

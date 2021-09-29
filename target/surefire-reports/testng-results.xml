@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35960" started-at="2021-09-29T18:12:35 IST" finished-at="2021-09-29T18:13:11 IST">
+    <groups>
+    </groups>
+    <test name="Testing Framework" duration-ms="35960" started-at="2021-09-29T18:12:35 IST" finished-at="2021-09-29T18:13:11 IST">
+      <class name="TestPage.RS_PracticeLoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="setUp" is-config="true" duration-ms="7465" started-at="2021-09-29T18:12:44 IST" finished-at="2021-09-29T18:12:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_PractiePage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="Login_PractiePage" duration-ms="212" started-at="2021-09-29T18:12:52 IST" finished-at="2021-09-29T18:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_PractiePage -->
+        <test-method status="PASS" signature="verifytermsandconditionText()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="verifytermsandconditionText" duration-ms="48" started-at="2021-09-29T18:12:52 IST" finished-at="2021-09-29T18:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytermsandconditionText -->
+        <test-method status="PASS" signature="tearDownpage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="tearDownpage" is-config="true" duration-ms="4162" started-at="2021-09-29T18:13:06 IST" finished-at="2021-09-29T18:13:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownpage -->
+      </class> <!-- TestPage.RS_PracticeLoginPageTest -->
+      <class name="TestPage.RS_HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_HomePageTest@2a556333]" name="setUp" is-config="true" duration-ms="9439" started-at="2021-09-29T18:12:35 IST" finished-at="2021-09-29T18:12:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:1, instance:TestPage.RS_HomePageTest@2a556333]" name="verifyHomePage" duration-ms="11127" started-at="2021-09-29T18:12:52 IST" finished-at="2021-09-29T18:13:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="clickingonLoginTab()[pri:2, instance:TestPage.RS_HomePageTest@2a556333]" name="clickingonLoginTab" duration-ms="3466" started-at="2021-09-29T18:13:03 IST" finished-at="2021-09-29T18:13:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingonLoginTab -->
+      </class> <!-- TestPage.RS_HomePageTest -->
+    </test> <!-- Testing Framework -->
+  </suite> <!-- Suite -->
+</testng-results>
