@@ -1,16 +1,20 @@
 package AppConfiguration;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import BasePackage.BasePage;
 
 public class Utilityclass extends BasePage {
 	
 	WebDriver driver;
+	WebDriverWait wait;
 
 	public Utilityclass(WebDriver driver) {
 		this.driver = driver;
@@ -58,6 +62,11 @@ public class Utilityclass extends BasePage {
 	
 	public void closeBrowser() {
 		driver.close();
+	}
+	
+	public void waitForSpecificWebelement(By locator) {
+		wait = new WebDriverWait(driver, Duration.ofMillis(5000));
+		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
 
 }

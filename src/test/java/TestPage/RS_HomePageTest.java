@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -41,6 +42,10 @@ public class RS_HomePageTest{
 	
 	public void clickingonLoginTab() {
 		rs_homepage.clickLogin();
+	}
+	
+	@AfterTest
+	public void tearDownpage() {
 		action.closeBrowser();
 	}
 

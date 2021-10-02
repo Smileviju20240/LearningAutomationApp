@@ -16,7 +16,6 @@ public class PracticeLoginPage extends BasePage{
 	By CHECK_BOX = By.xpath("//input[@id='agreeTerms']");
 	By Submit_BTN = By.xpath("//button[@id='form-submit']");
 	By Terms = By.xpath("//label[@style='display: inline;']");
-	By Header = By.xpath("//h2[text()='Join now to Practice']");
 
 	// Always Create constructor of page class because it will always be called in other class while object creation.
 	
@@ -37,10 +36,6 @@ public class PracticeLoginPage extends BasePage{
 	public String gettingtermsandconditionText() {
 		return action.gettingText(Terms);
 		
-	}
-	
-	public String gettingHeaderText() {
-		return action.gettingText(Header);
 	}
 
 }

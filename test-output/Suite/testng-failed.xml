@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Testing Framework(failed)">
+    <classes>
+      <class name="TestPage.RS_OurProjectPageTest">
+        <methods>
+          <include name="verifyPractiseLink1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestPage.RS_OurProjectPageTest -->
+      <class name="TestPage.RS_PracticeLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Loginto_PractiePage"/>
+          <include name="tearDownpage"/>
+          <include name="verifytermsandconditionText"/>
+        </methods>
+      </class> <!-- TestPage.RS_PracticeLoginPageTest -->
+      <class name="TestPage.RS_HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyHomePage"/>
+          <include name="clickingonLoginTab"/>
+        </methods>
+      </class> <!-- TestPage.RS_HomePageTest -->
+    </classes>
+  </test> <!-- Testing Framework(failed) -->
+</suite> <!-- Failed suite [Suite] -->

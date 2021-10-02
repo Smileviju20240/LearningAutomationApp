@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35960" started-at="2021-09-29T18:12:35 IST" finished-at="2021-09-29T18:13:11 IST">
+  <suite name="Suite" duration-ms="36113" started-at="2021-10-02T19:22:07 IST" finished-at="2021-10-02T19:22:43 IST">
     <groups>
     </groups>
-    <test name="Testing Framework" duration-ms="35960" started-at="2021-09-29T18:12:35 IST" finished-at="2021-09-29T18:13:11 IST">
+    <test name="Testing Framework" duration-ms="36113" started-at="2021-10-02T19:22:07 IST" finished-at="2021-10-02T19:22:43 IST">
       <class name="TestPage.RS_PracticeLoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="setUp" is-config="true" duration-ms="7465" started-at="2021-09-29T18:12:44 IST" finished-at="2021-09-29T18:12:51 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@2f943d71]" name="setUp" is-config="true" duration-ms="5511" started-at="2021-10-02T19:22:16 IST" finished-at="2021-10-02T19:22:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Login_PractiePage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="Login_PractiePage" duration-ms="212" started-at="2021-09-29T18:12:52 IST" finished-at="2021-09-29T18:12:52 IST">
+        <test-method status="PASS" signature="Loginto_PractiePage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@2f943d71]" name="Loginto_PractiePage" duration-ms="480" started-at="2021-10-02T19:22:27 IST" finished-at="2021-10-02T19:22:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_PractiePage -->
-        <test-method status="PASS" signature="verifytermsandconditionText()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="verifytermsandconditionText" duration-ms="48" started-at="2021-09-29T18:12:52 IST" finished-at="2021-09-29T18:12:52 IST">
+        </test-method> <!-- Loginto_PractiePage -->
+        <test-method status="PASS" signature="verifytermsandconditionText()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@2f943d71]" name="verifytermsandconditionText" duration-ms="72" started-at="2021-10-02T19:22:28 IST" finished-at="2021-10-02T19:22:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifytermsandconditionText -->
-        <test-method status="PASS" signature="tearDownpage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@bd8db5a]" name="tearDownpage" is-config="true" duration-ms="4162" started-at="2021-09-29T18:13:06 IST" finished-at="2021-09-29T18:13:11 IST">
+        <test-method status="PASS" signature="tearDownpage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@2f943d71]" name="tearDownpage" is-config="true" duration-ms="75" started-at="2021-10-02T19:22:43 IST" finished-at="2021-10-02T19:22:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownpage -->
       </class> <!-- TestPage.RS_PracticeLoginPageTest -->
       <class name="TestPage.RS_HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_HomePageTest@2a556333]" name="setUp" is-config="true" duration-ms="9439" started-at="2021-09-29T18:12:35 IST" finished-at="2021-09-29T18:12:44 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_HomePageTest@7d70d1b1]" name="setUp" is-config="true" duration-ms="9102" started-at="2021-10-02T19:22:07 IST" finished-at="2021-10-02T19:22:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePage()[pri:1, instance:TestPage.RS_HomePageTest@2a556333]" name="verifyHomePage" duration-ms="11127" started-at="2021-09-29T18:12:52 IST" finished-at="2021-09-29T18:13:03 IST">
+        <test-method status="PASS" signature="verifyHomePage()[pri:1, instance:TestPage.RS_HomePageTest@7d70d1b1]" name="verifyHomePage" duration-ms="7741" started-at="2021-10-02T19:22:28 IST" finished-at="2021-10-02T19:22:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method status="PASS" signature="clickingonLoginTab()[pri:2, instance:TestPage.RS_HomePageTest@2a556333]" name="clickingonLoginTab" duration-ms="3466" started-at="2021-09-29T18:13:03 IST" finished-at="2021-09-29T18:13:06 IST">
+        <test-method status="PASS" signature="clickingonLoginTab()[pri:2, instance:TestPage.RS_HomePageTest@7d70d1b1]" name="clickingonLoginTab" duration-ms="3232" started-at="2021-10-02T19:22:36 IST" finished-at="2021-10-02T19:22:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickingonLoginTab -->
+        <test-method status="PASS" signature="tearDownpage()[pri:0, instance:TestPage.RS_HomePageTest@7d70d1b1]" name="tearDownpage" is-config="true" duration-ms="586" started-at="2021-10-02T19:22:43 IST" finished-at="2021-10-02T19:22:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownpage -->
       </class> <!-- TestPage.RS_HomePageTest -->
+      <class name="TestPage.RS_ProjectPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_ProjectPageTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5528" started-at="2021-10-02T19:22:22 IST" finished-at="2021-10-02T19:22:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPractiseLink1()[pri:0, instance:TestPage.RS_ProjectPageTest@2a742aa2]" name="verifyPractiseLink1" duration-ms="3717" started-at="2021-10-02T19:22:39 IST" finished-at="2021-10-02T19:22:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPractiseLink1 -->
+      </class> <!-- TestPage.RS_ProjectPageTest -->
     </test> <!-- Testing Framework -->
   </suite> <!-- Suite -->
 </testng-results>

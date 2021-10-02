@@ -5,6 +5,7 @@
     <classes>
       <class name="TestPage.RS_PracticeLoginPageTest"/>
       <class name="TestPage.RS_HomePageTest"/>
+      <class name="TestPage.RS_ProjectPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
