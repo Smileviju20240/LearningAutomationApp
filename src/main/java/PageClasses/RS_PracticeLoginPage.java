@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import AppConfiguration.Utilityclass;
 import BasePackage.BasePage;
 
-public class PracticeLoginPage extends BasePage{
+public class RS_PracticeLoginPage extends BasePage{
 	
 	Utilityclass action;
 	WebDriver driver;
@@ -19,18 +19,18 @@ public class PracticeLoginPage extends BasePage{
 
 	// Always Create constructor of page class because it will always be called in other class while object creation.
 	
-	public PracticeLoginPage(WebDriver driver) {		
+	public RS_PracticeLoginPage(WebDriver driver) {		
 		this.driver = driver;
 		action = new Utilityclass(driver);
 	}
 	
-	public OurProjectPage getIntoPractice(String name, String email) {
+	public RS_ProjectPage getIntoPractice(String name, String email) {
 		action.doSendValues(Your_Name, "Vijay Dhage");
 		action.doSendValues(E_Mail, "vijaydhage.003@gmail.com");
 		action.doClickOnWebElement(CHECK_BOX);
 		action.doClickOnWebElement(Submit_BTN);
 		
-		return new OurProjectPage(driver);
+		return new RS_ProjectPage(driver);
 	}
 	
 	public String gettingtermsandconditionText() {

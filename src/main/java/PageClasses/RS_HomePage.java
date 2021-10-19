@@ -42,9 +42,9 @@ public class RS_HomePage extends BasePage{
 			return new TeachingLoginPage(driver);
 		}
 		
-		public PracticeLoginPage clickPracticeTab() {
+		public RS_PracticeLoginPage clickPracticeTab() {
 			action.doClickOnWebElement(PRACTICE_Tab);
-			return new PracticeLoginPage(driver);
+			return new RS_PracticeLoginPage(driver);
 		}
 		
 		public String getText() {

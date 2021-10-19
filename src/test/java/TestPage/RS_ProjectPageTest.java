@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 
 import AppConfiguration.Utilityclass;
 import BasePackage.BasePage;
-import PageClasses.OurProjectPage;
-import PageClasses.PracticeLoginPage;
+import PageClasses.RS_ProjectPage;
+import PageClasses.RS_PracticeLoginPage;
 import PageClasses.RS_HomePage;
 
 public class RS_ProjectPageTest {
@@ -17,9 +17,9 @@ public class RS_ProjectPageTest {
 	WebDriver driver;
 	Utilityclass action;
 	BasePage bp;
-	PracticeLoginPage practice;
+	RS_PracticeLoginPage practice;
 	RS_HomePage rs_homepage;
-	OurProjectPage projectpage_instance;
+	RS_ProjectPage projectpage_instance;
 	
 	@BeforeTest
 

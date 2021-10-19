@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Testing Framework(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Testing Framework(failed)">
     <classes>
-      <class name="TestPage.RS_OurProjectPageTest">
-        <methods>
-          <include name="verifyPractiseLink1"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- TestPage.RS_OurProjectPageTest -->
       <class name="TestPage.RS_PracticeLoginPageTest">
         <methods>
           <include name="setUp"/>
@@ -17,9 +11,16 @@
           <include name="verifytermsandconditionText"/>
         </methods>
       </class> <!-- TestPage.RS_PracticeLoginPageTest -->
+      <class name="TestPage.RS_ProjectPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyPractiseLink1"/>
+        </methods>
+      </class> <!-- TestPage.RS_ProjectPageTest -->
       <class name="TestPage.RS_HomePageTest">
         <methods>
           <include name="setUp"/>
+          <include name="tearDownpage"/>
           <include name="verifyHomePage"/>
           <include name="clickingonLoginTab"/>
         </methods>

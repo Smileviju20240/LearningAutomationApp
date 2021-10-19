@@ -9,5 +9,8 @@ public interface AppConstants {
             + "Websites for Automation or if there are any new Topics added to "
             + "your enrolled course.";
 	String PracticeLogin_Header = "Join now to Practice";
+	String GREENKART_TITLE = "GreenKart - veg and fruits kart";
+	String[] Selected_vegiess = {"Cauliflower", "Pumpkin", "Raspberry", "Pista"};
+	int Actual_Item_Count = 4;
 
 }

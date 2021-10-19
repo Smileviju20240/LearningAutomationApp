@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPage.RS_PracticeLoginPageTest">
+      <class name="TestPage.RSQ_GreenKartPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="tearDownpage"/>
-          <include name="verifytermsandconditionText"/>
+          <include name="verifyVeggieSelection"/>
         </methods>
-      </class> <!-- TestPage.RS_PracticeLoginPageTest -->
+      </class> <!-- TestPage.RSQ_GreenKartPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

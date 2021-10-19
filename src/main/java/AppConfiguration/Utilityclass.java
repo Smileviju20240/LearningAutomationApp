@@ -16,8 +16,10 @@ public class Utilityclass extends BasePage {
 	WebDriver driver;
 	WebDriverWait wait;
 
+
 	public Utilityclass(WebDriver driver) {
 		this.driver = driver;
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
 	}
 
 	public WebElement doFindElement(By locator) {
@@ -67,6 +69,16 @@ public class Utilityclass extends BasePage {
 	public void waitForSpecificWebelement(By locator) {
 		wait = new WebDriverWait(driver, Duration.ofMillis(5000));
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+	}
+
+	public List<WebElement> doFindElements(By locator) {
+		List<WebElement> element = null;
+		try {
+			element = driver.findElements(locator);
+		} catch (Exception e) {
+			System.out.println("WebElement is not found" +locator);
+		}
+		return element;
 	}
 
 }

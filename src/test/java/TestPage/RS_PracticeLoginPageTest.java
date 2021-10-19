@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import AppConfiguration.AppConstants;
 import AppConfiguration.Utilityclass;
 import BasePackage.BasePage;
-import PageClasses.PracticeLoginPage;
+import PageClasses.RS_PracticeLoginPage;
 import PageClasses.RS_HomePage;
 
 public class RS_PracticeLoginPageTest {
@@ -19,8 +19,9 @@ public class RS_PracticeLoginPageTest {
 	WebDriver driver;
 	Utilityclass action;
 	BasePage bp;
-	PracticeLoginPage practice;
+	RS_PracticeLoginPage practice;
 	RS_HomePage rs_homepage;
+	
 
 	@BeforeTest
 

@@ -1,4 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.512 s - in TestSuite
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 22.871 s <<< FAILURE! - in TestSuite
+TestPage.RS_PracticeLoginPageTest.setUp  Time elapsed: 22.696 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a _ngcontent-mom-c24="" href="#/practice-project">...</a> is not clickable at point (1018, 122). Other element would receive the click: <div _ngcontent-mom-c24="" class="preloader" style="opacity: 0.99999;">...</div>
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'XIPL9394', ip: '192.168.216.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0e713c0b34e2aa46d514ddf50dc80d1, clickElement {id=c387bb94-4364-41d0-b5f1-428defc0f5c9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\vdhage\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61176/devtoo..., se:cdpVersion: 94.0.4606.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a0e713c0b34e2aa46d514ddf50dc80d1)] -> xpath: (//a[text()='Practice'])[1]]
+Session ID: a0e713c0b34e2aa46d514ddf50dc80d1
+	at TestPage.RS_PracticeLoginPageTest.setUp(RS_PracticeLoginPageTest.java:32)
+

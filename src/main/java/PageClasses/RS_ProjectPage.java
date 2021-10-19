@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import AppConfiguration.Utilityclass;
 
-public class OurProjectPage {
+public class RS_ProjectPage {
 	
 	Utilityclass action;
 	WebDriver driver;
@@ -18,18 +18,20 @@ public class OurProjectPage {
 	
 	// Always Create constructor of page class because it will always be called in other class while object creation.
 	
-	public OurProjectPage(WebDriver driver) {
+	public RS_ProjectPage(WebDriver driver) {
 		this.driver = driver;
 		action = new Utilityclass(driver);
 	}
 	
-	public void clickOnPractise1link() {
+	public RSQ_GreenKartPage clickOnPractise1link() {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 		action.doClickOnWebElement(Practice1);
+		
+		return new RSQ_GreenKartPage(driver);
 	}
 
 }

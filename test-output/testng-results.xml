@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19825" started-at="2021-10-02T19:14:06 IST" finished-at="2021-10-02T19:14:26 IST">
+  <suite name="Default suite" duration-ms="22912" started-at="2021-10-19T17:00:14 IST" finished-at="2021-10-19T17:00:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19825" started-at="2021-10-02T19:14:06 IST" finished-at="2021-10-02T19:14:26 IST">
-      <class name="TestPage.RS_PracticeLoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@4e718207]" name="setUp" is-config="true" duration-ms="19363" started-at="2021-10-02T19:14:06 IST" finished-at="2021-10-02T19:14:25 IST">
+    <test name="Default test" duration-ms="22912" started-at="2021-10-19T17:00:14 IST" finished-at="2021-10-19T17:00:37 IST">
+      <class name="TestPage.RSQ_GreenKartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RSQ_GreenKartPageTest@3aeaafa6]" name="setUp" is-config="true" duration-ms="20313" started-at="2021-10-19T17:00:14 IST" finished-at="2021-10-19T17:00:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Loginto_PractiePage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@4e718207]" name="Loginto_PractiePage" duration-ms="338" started-at="2021-10-02T19:14:25 IST" finished-at="2021-10-02T19:14:26 IST">
+        <test-method status="PASS" signature="verifyVeggieSelection()[pri:0, instance:TestPage.RSQ_GreenKartPageTest@3aeaafa6]" name="verifyVeggieSelection" duration-ms="2562" started-at="2021-10-19T17:00:35 IST" finished-at="2021-10-19T17:00:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Loginto_PractiePage -->
-        <test-method status="PASS" signature="tearDownpage()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@4e718207]" name="tearDownpage" is-config="true" duration-ms="84" started-at="2021-10-02T19:14:26 IST" finished-at="2021-10-02T19:14:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownpage -->
-      </class> <!-- TestPage.RS_PracticeLoginPageTest -->
+        </test-method> <!-- verifyVeggieSelection -->
+      </class> <!-- TestPage.RSQ_GreenKartPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
