@@ -31,7 +31,7 @@ public class RSQ_GreenKartPage {
 //	By Cart_Items = By.xpath("//div[@class='cart-preview active']//li//p[@class='product-name']");
 //	By Cart_Item_BasicPrice = By.xpath("//div[@class='cart-preview active']//li//p[@class='product-price']");
 //	By Cart_ItemNumbers = By.xpath("//div[@class='cart-preview active']//li//p[@class='quantity']");
-//	By Cart_Item_Proce = By.xpath("//div[@class='cart-preview active']//li//p[@class='amount']");
+//	By Cart_Item_Price = By.xpath("//div[@class='cart-preview active']//li//p[@class='amount']");
 	By Cart_RemoveItems = By.xpath("(//li//a[@href='#'])[4]");
 
 	public RSQ_GreenKartPage(WebDriver driver) {
@@ -43,7 +43,8 @@ public class RSQ_GreenKartPage {
 		return action.gettingTitle();
 	}
 	
-	public void fetch_Veggie_names() {
+
+	public RSQ_GreenVegPage fetch_Veggie_names() {
 		
 		All_Product_Lists = action.doFindmorethanoneElements(Products);
 		listofvegies = Arrays.asList(AppConstants.Selected_vegiess);
@@ -52,8 +53,8 @@ public class RSQ_GreenKartPage {
 			int j = 0;
 			action.waitForSpecificWebelement(Add_To_Cart);
 			
-			String[] productName_list = action.doFindElements(Product_Name).get(i).getText().split("-");
-			String productname = productName_list[0].trim();
+			String[] productName_lists = action.doFindElements(Product_Name).get(i).getText().split("-");
+			String productname = productName_lists[0].trim();
 			
 			if(listofvegies.contains(productname)) {
 				j++;
@@ -68,6 +69,8 @@ public class RSQ_GreenKartPage {
 		
 		action.doClickOnWebElement(Cart_Icon);
 		action.doClickOnWebElement(Cart_RemoveItems);
+		action.doClickOnWebElement(Proceed_To_CheckOut);
+		return new RSQ_GreenVegPage(driver);
 		
 	}
 
