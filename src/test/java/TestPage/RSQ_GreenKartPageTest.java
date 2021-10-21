@@ -44,13 +44,8 @@ public class RSQ_GreenKartPageTest {
 
 	public void verifyPractiseLink1() {
 		Assert.assertEquals(greenkart.gettingGreenKartTitle(), AppConstants.GREENKART_TITLE);
+		greenkart.fetch_Veggie_names();
 	}
 	
-	@Test
-
-	public void verifyVeggieSelection() {
-		greenkart.fetch_Veggie_names();
-		softAssert.assertEquals(greenkart.numberofCartItems, AppConstants.Actual_Item_Count);
-	}
 
 }

@@ -5,8 +5,8 @@
     <classes>
       <class name="TestPage.RSQ_GreenKartPageTest">
         <methods>
+          <include name="verifyPractiseLink1"/>
           <include name="setUp"/>
-          <include name="verifyVeggieSelection"/>
         </methods>
       </class> <!-- TestPage.RSQ_GreenKartPageTest -->
     </classes>
