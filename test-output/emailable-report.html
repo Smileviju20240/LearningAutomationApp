@@ -8,47 +8,97 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">36,380</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">9</td><td class="num">186,544</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestPage.RSQ_GreenKartPageTest</td><td><a href="#m0">verifyPractiseLink1</a></td><td rowspan="1">1634826610271</td><td rowspan="1">13</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestPage.RSQ_GreenKartPageTest</td><td><a href="#m0">verifyGreenKartPageTitle</a></td><td rowspan="1">1636451037577</td><td rowspan="1">38</td></tr><tr class="failedodd"><td rowspan="1">TestPage.RSQ_GreenVegPageTest</td><td><a href="#m1">verify_Order_Isplaced</a></td><td rowspan="1">1636450908512</td><td rowspan="1">698</td></tr><tr class="failedeven"><td rowspan="2">TestPage.RS_HomePageTest</td><td><a href="#m2">clickingonLoginTab</a></td><td rowspan="1">1636451043135</td><td rowspan="1">1079</td></tr><tr class="failedeven"><td><a href="#m3">verifyHomePage</a></td><td rowspan="1">1636451039703</td><td rowspan="1">3429</td></tr><tr class="failedodd"><td rowspan="5">TestPage.TeachingLoginPageTest</td><td><a href="#m4">testwith_InvalidData</a></td><td rowspan="4">1636451001654</td><td rowspan="4">5055</td></tr><tr class="failedodd"><td><a href="#m5">testwith_InvalidData</a></td></tr><tr class="failedodd"><td><a href="#m6">testwith_InvalidData</a></td></tr><tr class="failedodd"><td><a href="#m7">testwith_InvalidData</a></td></tr><tr class="failedodd"><td><a href="#m8">testwith_ValidData</a></td><td rowspan="1">1636450923188</td><td rowspan="1">5011</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestPage.RS_PracticeLoginPageTest</td><td><a href="#m9">Loginto_PractiePage</a></td><td rowspan="1">1636451026819</td><td rowspan="1">331</td></tr><tr class="passedeven"><td><a href="#m10">verifytermsandconditionText</a></td><td rowspan="1">1636451027151</td><td rowspan="1">41</td></tr><tr class="passedodd"><td rowspan="1">TestPage.RS_ProjectPageTest</td><td><a href="#m11">verifyPractiseLink1</a></td><td rowspan="1">1636451037616</td><td rowspan="1">2085</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">TestPage.RSQ_GreenKartPageTest#verifyPractiseLink1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [GreenKart - veg and fruits kar] but found [GreenKart - veg and fruits kart]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at TestPage.RSQ_GreenKartPageTest.verifyPractiseLink1(RSQ_GreenKartPageTest.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+<h2>Test</h2><h3 id="m0">TestPage.RSQ_GreenKartPageTest#verifyGreenKartPageTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [GreenKart - veg and fruits kart] but found [Rahul Shetty Academy]
+	at TestPage.RSQ_GreenKartPageTest.verifyGreenKartPageTitle(RSQ_GreenKartPageTest.java:46)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestPage.RSQ_GreenVegPageTest#verify_Order_Isplaced</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-rc-1&apos;, revision: &apos;bc5511cbda&apos;
+System info: host: &apos;XIPL9394&apos;, ip: &apos;192.168.141.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [359a1d698330a7fda5e67b5c402bd5e9, getElementText {id=d18e2027-393f-4b4e-b4a3-675befe54a93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\vdhage\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51240/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (359a1d698330a7fda5e67b5c402bd5e9)] -&gt; xpath: //p[@class=&apos;product-name&apos;]]
+Session ID: 359a1d698330a7fda5e67b5c402bd5e9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:201)
+	at PageClasses.RSQ_GreenVegPage.placing_Order_WithCartItem(RSQ_GreenVegPage.java:48)
+	at TestPage.RSQ_GreenVegPageTest.verify_Order_Isplaced(RSQ_GreenVegPageTest.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestPage.RS_HomePageTest#clickingonLoginTab</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-eya-c24=&quot;&quot; class=&quot;icon fa fa-lock&quot;&gt;&lt;/span&gt; is not clickable at point (1165, 27). Other element would receive the click: &lt;iframe id=&quot;aswift_1&quot; name=&quot;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;&quot; height=&quot;&quot; frameborder=&quot;0&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20211103/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;amp;adk=1812271808&amp;amp;client=ca-pub-3231318496783163&amp;amp;fa=8&amp;amp;ifi=2&amp;amp;uci=a!2&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;true&quot; data-google-container-id=&quot;a!2&quot; data-google-query-id=&quot;CI3V2rj-ivQCFdEJ1QodPb4Bdg&quot; data-load-complete=&quot;true&quot; style=&quot;width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=95.0.4638.69)
+Build info: version: &apos;4.0.0-rc-1&apos;, revision: &apos;bc5511cbda&apos;
+System info: host: &apos;XIPL9394&apos;, ip: &apos;192.168.141.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [842f5b8fff2025c50e91f77ebe9d3f20, clickElement {id=f6f88437-4bbd-4ef7-b703-e6987ede2361}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\vdhage\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51008/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (842f5b8fff2025c50e91f77ebe9d3f20)] -&gt; css selector: .icon.fa.fa-lock]
+Session ID: 842f5b8fff2025c50e91f77ebe9d3f20
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at AppConfiguration.Utilityclass.doClickOnWebElement(Utilityclass.java:41)
+	at PageClasses.RS_HomePage.clickLogin(RS_HomePage.java:41)
+	at TestPage.RS_HomePageTest.clickingonLoginTab(RS_HomePageTest.java:44)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestPage.RS_HomePageTest#verifyHomePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at TestPage.RS_HomePageTest.verifyHomePage(RS_HomePageTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestPage.TeachingLoginPageTest#testwith_InvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>test@xcx.com</td><td></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestPage.TeachingLoginPageTest#testwith_InvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestPage.TeachingLoginPageTest#testwith_InvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>test@xcx.com</td><td>test</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestPage.TeachingLoginPageTest#testwith_InvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td>test</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestPage.TeachingLoginPageTest#testwith_ValidData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.doLoginWithValid_Data(TeachingLoginPage.java:36)
+	at TestPage.TeachingLoginPageTest.testwith_ValidData(TeachingLoginPageTest.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestPage.RS_PracticeLoginPageTest#Loginto_PractiePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestPage.RS_PracticeLoginPageTest#verifytermsandconditionText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestPage.RS_ProjectPageTest#verifyPractiseLink1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

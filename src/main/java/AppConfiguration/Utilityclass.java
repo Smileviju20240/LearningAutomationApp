@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.locators.RelativeLocator;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -32,18 +33,17 @@ public class Utilityclass extends BasePage {
 		return element;
 	}
 	
-	public List<WebElement> doFindmorethanoneElements(By locator) {
-		List<WebElement> element = null;
-		try {
-			element = driver.findElements(locator);
-		} catch (Exception e) {
-			System.out.println("WebElement is not found" +locator);
-		}
-		return element;
+	public void navigateToOtherSite() {
+		driver.navigate().to("https://rahulshettyacademy.com/seleniumPractise/#/");
 	}
 
 	public void doClickOnWebElement(By locator) {
 		doFindElement(locator).click();
+	}
+	
+	public void doClickonPopUpWindow() {
+		//driver.switchTo().alert().getText();
+		driver.switchTo().alert().dismiss();
 	}
 
 	public void doSendValues(By locator, String value) {
@@ -75,6 +75,16 @@ public class Utilityclass extends BasePage {
 		List<WebElement> element = null;
 		try {
 			element = driver.findElements(locator);
+		} catch (Exception e) {
+			System.out.println("WebElement is not found" +locator);
+		}
+		return element;
+	}
+	
+	public List<WebElement> doFindElementsByRelativeLocator(By locator) {
+		List<WebElement> element = null;
+		try {
+			element = driver.findElements(RelativeLocator.with(locator).toRightOf(locator));
 		} catch (Exception e) {
 			System.out.println("WebElement is not found" +locator);
 		}

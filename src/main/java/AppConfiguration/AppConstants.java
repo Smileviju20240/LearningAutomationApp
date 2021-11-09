@@ -11,6 +11,5 @@ public interface AppConstants {
 	String PracticeLogin_Header = "Join now to Practice";
 	String GREENKART_TITLE = "GreenKart - veg and fruits kart";
 	String[] Selected_vegiess = {"Cauliflower", "Pumpkin", "Raspberry", "Pista"};
-	int Actual_Item_Count = 4;
 
 }
