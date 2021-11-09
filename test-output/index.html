@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\vdhage\AppData\Local\Temp\testng-eclipse--1658763566\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\vdhage\eclipse-workspace\IndividualE2EProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,21 +93,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">12 methods, 9 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestPage.RSQ_GreenKartPageTest" hash-for-method="verifyPractiseLink1">verifyPractiseLink1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.RS_HomePageTest" hash-for-method="clickingonLoginTab">clickingonLoginTab</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.TeachingLoginPageTest" hash-for-method="testwith_InvalidData(test@xcx.com, )">testwith_InvalidData(test@xcx.com, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.TeachingLoginPageTest" hash-for-method="testwith_InvalidData(, )">testwith_InvalidData(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.TeachingLoginPageTest" hash-for-method="testwith_InvalidData(test@xcx.com, test)">testwith_InvalidData(test@xcx.com, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.TeachingLoginPageTest" hash-for-method="testwith_InvalidData(, test)">testwith_InvalidData(, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.TeachingLoginPageTest" hash-for-method="testwith_ValidData">testwith_ValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.RSQ_GreenKartPageTest" hash-for-method="verifyGreenKartPageTitle">verifyGreenKartPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.RS_HomePageTest" hash-for-method="verifyHomePage">verifyHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.RSQ_GreenVegPageTest" hash-for-method="verify_Order_Isplaced">verify_Order_Isplaced</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.RS_PracticeLoginPageTest" hash-for-method="Loginto_PractiePage">Loginto_PractiePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.RS_ProjectPageTest" hash-for-method="verifyPractiseLink1">verifyPractiseLink1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestPage.RS_PracticeLoginPageTest" hash-for-method="verifytermsandconditionText">verifytermsandconditionText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,8 +182,59 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestPage.RS_HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickingonLoginTab">
+                  </a> <!-- clickingonLoginTab -->
+                  <span class="method-name">clickingonLoginTab</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span _ngcontent-eya-c24=&quot;&quot; class=&quot;icon fa fa-lock&quot;&gt;&lt;/span&gt; is not clickable at point (1165, 27). Other element would receive the click: &lt;iframe id=&quot;aswift_1&quot; name=&quot;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;&quot; height=&quot;&quot; frameborder=&quot;0&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20211103/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;amp;adk=1812271808&amp;amp;client=ca-pub-3231318496783163&amp;amp;fa=8&amp;amp;ifi=2&amp;amp;uci=a!2&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;true&quot; data-google-container-id=&quot;a!2&quot; data-google-query-id=&quot;CI3V2rj-ivQCFdEJ1QodPb4Bdg&quot; data-load-complete=&quot;true&quot; style=&quot;width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=95.0.4638.69)
+Build info: version: &apos;4.0.0-rc-1&apos;, revision: &apos;bc5511cbda&apos;
+System info: host: &apos;XIPL9394&apos;, ip: &apos;192.168.141.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [842f5b8fff2025c50e91f77ebe9d3f20, clickElement {id=f6f88437-4bbd-4ef7-b703-e6987ede2361}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\vdhage\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51008/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (842f5b8fff2025c50e91f77ebe9d3f20)] -&gt; css selector: .icon.fa.fa-lock]
+Session ID: 842f5b8fff2025c50e91f77ebe9d3f20
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at AppConfiguration.Utilityclass.doClickOnWebElement(Utilityclass.java:41)
+	at PageClasses.RS_HomePage.clickLogin(RS_HomePage.java:41)
+	at TestPage.RS_HomePageTest.clickingonLoginTab(RS_HomePageTest.java:44)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage">
+                  </a> <!-- verifyHomePage -->
+                  <span class="method-name">verifyHomePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at TestPage.RS_HomePageTest.verifyHomePage(RS_HomePageTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
               <span class="class-name">TestPage.RSQ_GreenKartPageTest</span>
@@ -127,153 +242,474 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyPractiseLink1">
-                  </a> <!-- verifyPractiseLink1 -->
-                  <span class="method-name">verifyPractiseLink1</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [GreenKart - veg and fruits kar] but found [GreenKart - veg and fruits kart]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at TestPage.RSQ_GreenKartPageTest.verifyPractiseLink1(RSQ_GreenKartPageTest.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                  <a name="verifyGreenKartPageTitle">
+                  </a> <!-- verifyGreenKartPageTitle -->
+                  <span class="method-name">verifyGreenKartPageTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [GreenKart - veg and fruits kart] but found [Rahul Shetty Academy]
+	at TestPage.RSQ_GreenKartPageTest.verifyGreenKartPageTitle(RSQ_GreenKartPageTest.java:46)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestPage.RSQ_GreenVegPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Order_Isplaced">
+                  </a> <!-- verify_Order_Isplaced -->
+                  <span class="method-name">verify_Order_Isplaced</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-rc-1&apos;, revision: &apos;bc5511cbda&apos;
+System info: host: &apos;XIPL9394&apos;, ip: &apos;192.168.141.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [359a1d698330a7fda5e67b5c402bd5e9, getElementText {id=d18e2027-393f-4b4e-b4a3-675befe54a93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\vdhage\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51240/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (359a1d698330a7fda5e67b5c402bd5e9)] -&gt; xpath: //p[@class=&apos;product-name&apos;]]
+Session ID: 359a1d698330a7fda5e67b5c402bd5e9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:201)
+	at PageClasses.RSQ_GreenVegPage.placing_Order_WithCartItem(RSQ_GreenVegPage.java:48)
+	at TestPage.RSQ_GreenVegPageTest.verify_Order_Isplaced(RSQ_GreenVegPageTest.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestPage.TeachingLoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwith_InvalidData(test@xcx.com, )">
+                  </a> <!-- testwith_InvalidData(test@xcx.com, ) -->
+                  <span class="method-name">testwith_InvalidData</span>
+                  <span class="parameters">(test@xcx.com, )</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwith_InvalidData(, )">
+                  </a> <!-- testwith_InvalidData(, ) -->
+                  <span class="method-name">testwith_InvalidData</span>
+                  <span class="parameters">(, )</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwith_InvalidData(test@xcx.com, test)">
+                  </a> <!-- testwith_InvalidData(test@xcx.com, test) -->
+                  <span class="method-name">testwith_InvalidData</span>
+                  <span class="parameters">(test@xcx.com, test)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwith_InvalidData(, test)">
+                  </a> <!-- testwith_InvalidData(, test) -->
+                  <span class="method-name">testwith_InvalidData</span>
+                  <span class="parameters">(, test)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.dNTLoginWithInvalid_Data(TeachingLoginPage.java:30)
+	at TestPage.TeachingLoginPageTest.testwith_InvalidData(TeachingLoginPageTest.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwith_ValidData">
+                  </a> <!-- testwith_ValidData -->
+                  <span class="method-name">testwith_ValidData</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at AppConfiguration.Utilityclass.doSendValues(Utilityclass.java:50)
+	at PageClasses.TeachingLoginPage.doLoginWithValid_Data(TeachingLoginPage.java:36)
+	at TestPage.TeachingLoginPageTest.testwith_ValidData(TeachingLoginPageTest.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPage.RS_PracticeLoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Loginto_PractiePage">
+                  </a> <!-- Loginto_PractiePage -->
+                  <span class="method-name">Loginto_PractiePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytermsandconditionText">
+                  </a> <!-- verifytermsandconditionText -->
+                  <span class="method-name">verifytermsandconditionText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPage.RS_ProjectPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPractiseLink1">
+                  </a> <!-- verifyPractiseLink1 -->
+                  <span class="method-name">verifyPractiseLink1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vdhage\AppData\Local\Temp\testng-eclipse--1658763566\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\vdhage\eclipse-workspace\IndividualE2EProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestPage.RSQ_GreenKartPageTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;verifyPractiseLink1&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- TestPage.RSQ_GreenKartPageTest --&gt;
+      &lt;class name=&quot;TestPage.RSQ_GreenVegPageTest&quot;/&gt;
+      &lt;class name=&quot;TestPage.TeachingLoginPageTest&quot;/&gt;
+      &lt;class name=&quot;TestPage.RS_PracticeLoginPageTest&quot;/&gt;
+      &lt;class name=&quot;TestPage.RSQ_GreenKartPageTest&quot;/&gt;
+      &lt;class name=&quot;TestPage.RS_ProjectPageTest&quot;/&gt;
+      &lt;class name=&quot;TestPage.RS_HomePageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPractiseLink1')
-data.setCell(0, 2, 'TestPage.RSQ_GreenKartPageTest')
-data.setCell(0, 3, 13);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'testwith_InvalidData')
+data.setCell(0, 2, 'TestPage.TeachingLoginPageTest')
+data.setCell(0, 3, 5067);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testwith_InvalidData')
+data.setCell(1, 2, 'TestPage.TeachingLoginPageTest')
+data.setCell(1, 3, 5055);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testwith_InvalidData')
+data.setCell(2, 2, 'TestPage.TeachingLoginPageTest')
+data.setCell(2, 3, 5032);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testwith_InvalidData')
+data.setCell(3, 2, 'TestPage.TeachingLoginPageTest')
+data.setCell(3, 3, 5017);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testwith_ValidData')
+data.setCell(4, 2, 'TestPage.TeachingLoginPageTest')
+data.setCell(4, 3, 5011);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyHomePage')
+data.setCell(5, 2, 'TestPage.RS_HomePageTest')
+data.setCell(5, 3, 3429);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyPractiseLink1')
+data.setCell(6, 2, 'TestPage.RS_ProjectPageTest')
+data.setCell(6, 3, 2085);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickingonLoginTab')
+data.setCell(7, 2, 'TestPage.RS_HomePageTest')
+data.setCell(7, 3, 1079);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_Order_Isplaced')
+data.setCell(8, 2, 'TestPage.RSQ_GreenVegPageTest')
+data.setCell(8, 3, 698);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Loginto_PractiePage')
+data.setCell(9, 2, 'TestPage.RS_PracticeLoginPageTest')
+data.setCell(9, 3, 331);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifytermsandconditionText')
+data.setCell(10, 2, 'TestPage.RS_PracticeLoginPageTest')
+data.setCell(10, 3, 41);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyGreenKartPageTitle')
+data.setCell(11, 2, 'TestPage.RSQ_GreenKartPageTest')
+data.setCell(11, 3, 38);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestPage.RSQ_GreenKartPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="chronological-class-name">TestPage.RS_HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RS_PracticeLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11453 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RS_ProjectPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20312 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RSQ_GreenVegPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28694 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyPractiseLink1</span>
-                <span class="method-start">36333 ms</span>
+                <span class="method-name">verify_Order_Isplaced</span>
+                <span class="method-start">42538 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.TeachingLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testwith_ValidData</span>
+                <span class="method-start">57214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownpage</span>
+                <span class="method-start">62226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testwith_InvalidData(test@xcx.com, test)</span>
+                <span class="method-start">96148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownpage</span>
+                <span class="method-start">101166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">101219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testwith_InvalidData(, test)</span>
+                <span class="method-start">115705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownpage</span>
+                <span class="method-start">120775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">120847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testwith_InvalidData(test@xcx.com, )</span>
+                <span class="method-start">135680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownpage</span>
+                <span class="method-start">140738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">140800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testwith_InvalidData(, )</span>
+                <span class="method-start">155748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownpage</span>
+                <span class="method-start">160781 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RS_PracticeLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Loginto_PractiePage</span>
+                <span class="method-start">160845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytermsandconditionText</span>
+                <span class="method-start">161177 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RSQ_GreenKartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">161219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyGreenKartPageTitle</span>
+                <span class="method-start">171603 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RS_ProjectPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPractiseLink1</span>
+                <span class="method-start">171642 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RS_HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHomePage</span>
+                <span class="method-start">173729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickingonLoginTab</span>
+                <span class="method-start">177161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownpage</span>
+                <span class="method-start">178241 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPage.RS_PracticeLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownpage</span>
+                <span class="method-start">182393 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

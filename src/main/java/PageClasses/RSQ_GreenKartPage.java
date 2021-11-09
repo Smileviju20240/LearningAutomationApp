@@ -27,6 +27,7 @@ public class RSQ_GreenKartPage {
 	By Cart_Icon = By.cssSelector("a.cart-icon");
 	By Cart_numbers = By.cssSelector("span.cart-count");
 	By Proceed_To_CheckOut = By.xpath("//button[text()='PROCEED TO CHECKOUT']");
+	By close_Tab = By.xpath("//div[@class='page-wrapper']");
 	
 //	By Cart_Items = By.xpath("//div[@class='cart-preview active']//li//p[@class='product-name']");
 //	By Cart_Item_BasicPrice = By.xpath("//div[@class='cart-preview active']//li//p[@class='product-price']");
@@ -46,7 +47,8 @@ public class RSQ_GreenKartPage {
 
 	public RSQ_GreenVegPage fetch_Veggie_names() {
 		
-		All_Product_Lists = action.doFindmorethanoneElements(Products);
+		action.navigateToOtherSite();
+		All_Product_Lists = action.doFindElements(Products);
 		listofvegies = Arrays.asList(AppConstants.Selected_vegiess);
 		
 		for(int i=0; i<All_Product_Lists.size(); i++) {

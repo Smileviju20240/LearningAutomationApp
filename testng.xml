@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Testing Framework">
+  <test thread-count="5" name="Test">
     <classes>
+      <class name="TestPage.RSQ_GreenVegPageTest"/>
+      <class name="TestPage.TeachingLoginPageTest"/>
       <class name="TestPage.RS_PracticeLoginPageTest"/>
-      <class name="TestPage.RS_HomePageTest"/>
+      <class name="TestPage.RSQ_GreenKartPageTest"/>
       <class name="TestPage.RS_ProjectPageTest"/>
+      <class name="TestPage.RS_HomePageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

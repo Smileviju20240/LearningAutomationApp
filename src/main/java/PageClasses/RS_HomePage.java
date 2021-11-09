@@ -63,10 +63,10 @@ public class RS_HomePage extends BasePage{
 
 		public int getNumberofCourses() {
 			int numberOfCourses=0;
-			numberOfCourses = action.doFindmorethanoneElements(COURSES_NAME).size();
+			numberOfCourses = action.doFindElements(COURSES_NAME).size();
 			action.doClickOnWebElement(VIEWALLCOURCES);
 			driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
-			numberOfCourses = action.doFindmorethanoneElements(Courses_Names).size();
+			numberOfCourses = action.doFindElements(Courses_Names).size();
 			return numberOfCourses;
 		}
 
